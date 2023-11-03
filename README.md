@@ -1,6 +1,6 @@
 #人工智慧課程期中報告-初學者的 TensorFlow 2.0 教程
 
-##第一步－將 TensorFlow 導入到程式碼
+## 第一步－將 TensorFlow 導入到程式碼
 ```python
 import tensorflow as tf
 ```
