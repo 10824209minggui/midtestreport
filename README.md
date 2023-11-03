@@ -85,14 +85,19 @@ model.fit(x_train, y_train, epochs=5)
 ```
 Epoch 1/5
 1875/1875 [==============================] - 8s 4ms/step - loss: 0.2950 - accuracy: 0.9151
+
 Epoch 2/5
 1875/1875 [==============================] - 15s 8ms/step - loss: 0.1419 - accuracy: 0.9577
+
 Epoch 3/5
 1875/1875 [==============================] - 10s 5ms/step - loss: 0.1050 - accuracy: 0.9682
+
 Epoch 4/5
 1875/1875 [==============================] - 9s 5ms/step - loss: 0.0887 - accuracy: 0.9730
+
 Epoch 5/5
 1875/1875 [==============================] - 9s 5ms/step - loss: 0.0741 - accuracy: 0.9767
+
 <keras.src.callbacks.History at 0x79dc7cc905e0>
 
 Model.evaluate 方法通常在 "Validation-set" 或 "Test-set" 上檢查模型效能。
